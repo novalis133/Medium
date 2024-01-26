@@ -11,13 +11,27 @@ This repository contains a comprehensive suite of unit tests designed for a neur
 
 ## Intentional Failures
 
-The test suite includes three intentional failures to demonstrate how the tests can detect common issues in neural network models:
+The test suite includes specific failure scenarios to showcase its capability in detecting common issues in neural network models:
 
-1. **Model Initialization Failure:** Tests the model's ability to initialize without errors. An intentional failure here would indicate an issue in the model's `__init__` method.
+1. **Error Handling Failure:**
+   - Test: `test_error_handling`
+   - Description: Validates the model's ability to handle invalid inputs.
+   - Observed Failure: The model did not raise an error with invalid input, indicating a need for improved input validation.
+   - Suggestion: Implement and enhance input validation in the model's forward method.
 
-2. **Input-Output Dimension Mismatch:** Ensures the model's output dimensions are as expected for given input dimensions. A failure in this test could point to a mismatch in the model architecture.
+2. **Overfitting Test Failure:**
+   - Test: `test_overfitting_on_small_data`
+   - Description: Ensures the model can overfit a small dataset, a sign of its learning capability.
+   - Observed Failure: The model did not overfit the small dataset as expected.
+   - Suggestion: Review and possibly enhance the model's capacity to ensure it can learn detailed features from a small dataset.
 
-3. **Training Step Error:** Verifies that the model can perform a training step correctly. An error here might suggest issues in the forward pass, loss computation, or backward pass.
+3. **Reproducibility Test Failure:**
+   - Test: `test_reproducibility`
+   - Description: Checks if the model produces consistent results under the same conditions.
+   - Observed Failure: Model outputs were different across two runs with the same seed.
+   - Suggestion: Ensure controlled randomness and deterministic behavior in the model architecture to achieve reproducibility.
+
+These failures are deliberately included to demonstrate the effectiveness of the testing suite in identifying potential areas of improvement in neural network models.
 
 ## Getting Started
 
