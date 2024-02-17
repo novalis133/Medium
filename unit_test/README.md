@@ -62,6 +62,6 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ## Contact
 
-Project Link: [https://github.com/novalis133/Medium/unit_test.git](https://github.com/novalis133/Medium/unit_test.git)
-Article Link: [Unit Test for Neural Network: Types and Examples]([https://github.com/novalis133/Medium/unit_test.git](https://medium.com/gitconnected/unit-test-for-neural-network-types-and-examples-022504afcaf2)https://medium.com/gitconnected/unit-test-for-neural-network-types-and-examples-022504afcaf2)
+- Project Link: [https://github.com/novalis133/Medium/unit_test.git](https://github.com/novalis133/Medium/unit_test.git)
+- Article Link: [Unit Test for Neural Network: Types and Examples](https://medium.com/gitconnected/unit-test-for-neural-network-types-and-examples-022504afcaf2)
 
