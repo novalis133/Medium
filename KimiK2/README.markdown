@@ -1,6 +1,5 @@
 # Kimi K2 MuonClip Story
 
-![Kimi K2 MuonClip Banner](https://source.unsplash.com/800x200/?neural-network,optimization)  
 *A visual exploration of the evolution from AdamW to MuonClip optimizer for training large language models like Kimi K2.*
 
 This Jupyter notebook provides a simplified, interactive explanation of the optimizer evolution from **AdamW** to **MuonClip**, used in training the Kimi K2 model. Through visualizations and simulations, it illustrates key concepts like structural distortion, exploding logits, and the QK-Clip guardrail, referencing the Kimi K2 paper. The notebook is ideal for AI/ML engineers and researchers interested in optimizer design and large-scale model training.
