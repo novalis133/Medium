@@ -1,6 +1,5 @@
 # Medium Experiments
 
-![Medium Experiments Banner](https://source.unsplash.com/800x200/?artificial-intelligence,research)  
 *A collection of AI/ML experiments and visualizations accompanying Medium articles on deep learning and optimization.*
 
 This repository serves as a central hub for experiments and code supporting my Medium articles on AI, machine learning, and optimization. As a Senior AI & Machine Learning Engineer, I share practical implementations and insights through projects like neural network testing for MNIST and optimizer visualizations for large language models (e.g., Kimi K2’s MuonClip). Each subdirectory corresponds to a specific article or experiment, designed for researchers, engineers, and enthusiasts.
